@@ -1,0 +1,15 @@
+THAY ĐỔI v2.3
+- Sửa kết nối Gemini để tự gọi API danh sách model và chỉ chọn model mà key hiện tại được quyền dùng.
+- Đổi model ưu tiên mặc định sang gemini-3.5-flash; dự phòng ưu tiên gemini-3.1-flash-lite và các Flash khả dụng khác.
+- Tự thử lại có giới hạn cho 408, 429, 500, 502, 503, 504.
+- Nếu lỗi tạm thời vẫn còn sau các lần thử, tự chuyển model dự phòng trước khi báo lỗi.
+- Hiển thị model thực tế đã kết nối.
+- Phân biệt rõ lỗi key/quyền (401/403), quota (429), model (404), lỗi tạm thời (5xx).
+- Giữ nguyên toàn bộ chức năng lớp 1-5, ma trận/đặc tả, nguồn, Word/Excel và định dạng đề của v2.2.
+
+KIỂM THỬ CỤC BỘ
+- Kiểm tra cú pháp tất cả script trong index.html.
+- Mô phỏng 503 hai lần rồi thành công ở model chính: đạt.
+- Mô phỏng model chính 503 liên tục rồi chuyển model dự phòng: đạt.
+- Mô phỏng key chỉ được phép dùng model dự phòng: tự dò và kết nối đúng model.
+- Chưa gọi bằng API key thật của người dùng.

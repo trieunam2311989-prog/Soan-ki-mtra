@@ -1,56 +1,29 @@
-﻿TRỢ LÝ RA ĐỀ TIỂU HỌC - GEMINI / GOOGLE AI STUDIO
-Phiên bản 2.2 - cập nhật 22/09/2026
+TRỢ LÝ RA ĐỀ TIỂU HỌC - GEMINI v2.3
+Cập nhật: 22/09/2026
 
-CÁCH DÙNG NGẮN NHẤT
-1. Trên bản cũ, tải bản sao JSON của hồ sơ đang làm. Giải nén toàn bộ gói mới.
-2. Thay index.html trên GitHub bằng index.html ở ngoài cùng gói này. Chỉ tải index.html, không tải ZIP hay thư mục tài liệu riêng. Sau khi GitHub xuất bản, mở web và nhấn Ctrl+F5. Cũng có thể mở index.html tại máy để dùng phần soạn; kết nối mạng phụ thuộc trình duyệt.
-3. Mở Kết nối AI. Đúng bản mới có tiêu đề: Kết nối Gemini - Google AI Studio.
-4. Bấm Mở Google AI Studio để lấy key. Đăng nhập Google, mở API Keys, bấm Create API key. Chọn hoặc tạo project khi được hỏi. Sao chép khóa được Google cấp.
-5. Quay lại web, dán key và bấm Kết nối Gemini. Đọc và xác nhận lần gửi thử. Khi thành công, về Hồ sơ đề để làm việc.
+CÁCH DÙNG NHANH
+1. Nếu đang có hồ sơ cũ, vào web cũ -> Tải bản sao JSON.
+2. Đưa tệp index.html của gói này lên GitHub Pages thay cho tệp cũ.
+3. Mở website -> nhấn Ctrl+F5.
+4. Vào Kết nối AI -> mở Google AI Studio tạo/lấy API key -> dán key -> bấm Kết nối Gemini.
+5. Web tự dò các model mà key được phép dùng. Mặc định ưu tiên gemini-3.5-flash; có thể tự chuyển sang Flash-Lite/Flash dự phòng.
+6. Khi gặp lỗi tạm thời 408/429/5xx, web tự thử lại có giới hạn. Nếu model đang bận hoặc không khả dụng, web thử model dự phòng trước khi báo lỗi.
+7. Nạp Bo_nguon_chuyen_mon.json ở Kho tri thức nếu chưa nạp. Chọn đúng khối/môn, xác nhận phạm vi và nguồn rồi mới lập ma trận/soạn đề.
 
-TRANG TẠO KHÓA CHÍNH THỨC
-https://aistudio.google.com/apikey
-Không phải Google/Looker Studio. Đây là Google AI Studio cho Gemini API.
-Không dùng OpenAI key (sk-...) hay APP_ACCESS_TOKEN cũ. Không thể đổi tên một key OpenAI thành key Google.
-Gói tệp không chứa key, quota hoặc tài khoản Google của bạn. Key thật phải được tạo trong tài khoản của bạn. Nếu nút tạo khóa không khả dụng, kiểm tra quyền dự án/đơn vị quản lí.
-Nên tạo key mới trực tiếp trong AI Studio. Theo hướng dẫn Google cập nhật tháng 9/2026, key mới là authorization key; khóa standard cũ cần chuyển đổi. Ứng dụng không ép key bắt đầu bằng AIza, chỉ Google xác minh key thật.
+LƯU Ý
+- Không đưa API key lên GitHub, không gửi key qua chat, không chụp ảnh lộ key.
+- Key chỉ giữ trong tab đang mở; tải lại trang phải dán lại.
+- Không thể bảo đảm Google không bao giờ trả 503/429. Bản v2.3 chỉ tự xử lý các lỗi tạm thời tốt hơn để giảm thao tác của giáo viên.
+- Nếu sau toàn bộ lượt thử vẫn báo 429: kiểm tra Usage/Rate limits trong Google AI Studio.
+- Nếu báo 401/403: kiểm tra hoặc tạo lại key/dự án/quyền truy cập.
+- Nếu báo không có model: kiểm tra Gemini API đã được cấp cho project chứa key.
+- Đề, ma trận và đáp án do AI tạo vẫn phải được giáo viên kiểm tra trước khi sử dụng.
 
-KHÔNG CẦN
-Không Cloudflare, không Node.js, không tệp CMD, không địa chỉ Worker, không mã truy cập website.
-Mặc định gemini-3.8-flash. Trong Tùy chọn mô hình có gemini-3.5-flash-lite; cũng có thể nhập mã Gemini tương thích generateContent và JSON Schema được tài khoản hỗ trợ. Đổi mô hình cần dán key và kết nối lại. Không tự thử nhiều mô hình hay tự gửi lại khi lỗi.
+ĐỊNH DẠNG ĐỀ
+- Times New Roman, cỡ 14.
+- A4; lề phải 3 cm, trái 1,5 cm, trên 2 cm, dưới 2 cm.
 
-LẤY NGUỒN VÀ RA ĐỀ
-Trong Kho tri thức, nạp:
-TAI_LIEU_RIENG_KHONG_DANG_GITHUB/Bo_nguon_chuyen_mon.json
-Giữ nguyên 58 hồ sơ lớp/môn, 58 mẫu Excel cũ và kho chương trình Toán/Tiếng Việt lớp 1-5. Các môn khác cần nạp YCCĐ, kế hoạch đúng môn/lớp; có khung không có nghĩa đã có đủ ngân hàng đề.
-Chọn khối/môn -> nạp nguồn -> xác nhận phạm vi và thang điểm -> lập ma trận -> giáo viên xác nhận -> soạn câu hỏi -> rà soát -> xuất tệp.
-Ma trận tự tính giữ nguyên. Word giữ Times New Roman 14, A4, lề phải 3 cm; trái 1,5 cm; trên/dưới 2 cm. Không kèm phông chữ.
-
-BẢO MẬT VÀ DỮ LIỆU
-Key chỉ nằm trong bộ nhớ tab. Ứng dụng không lưu key vào HTML, JSON, localStorage hay sessionStorage. Ngắt & xóa khóa bỏ key khỏi phiên, không xóa đề. Tải lại trang cần nhập lại.
-Key trong trình duyệt vẫn có thể bị lấy bởi mã trang, tiện ích hoặc người truy cập máy. Chỉ dùng máy và website bạn kiểm soát. Google khuyến nghị giữ key trên máy chủ cho ứng dụng triển khai chính thức. Không gửi key trong chat, ảnh chụp hay GitHub. Mỗi người dùng key của mình.
-Key chỉ gửi bằng header x-goog-api-key tới generativelanguage.googleapis.com; không qua proxy, không gửi key trong URL/nội dung đề. CSP được cập nhật chỉ cho phép kết nối API Google.
-Trước mỗi lần soạn, web hỏi xác nhận gửi phạm vi, ma trận và nguồn liên quan tới Google.
-Dịch vụ không thu phí có thể dùng nội dung để cải thiện sản phẩm, có thể có người rà soát. Không gửi đề mật, thông tin cá nhân học sinh hay dữ liệu nhạy cảm. Xem đúng điều khoản dịch vụ áp dụng cho tài khoản.
-
-QUOTA VÀ LỖI
-Có hạn mức miễn phí tùy mô hình/tài khoản, không phải dùng vô hạn. Kết nối gửi một lần thử ngắn, tiêu thụ quota và có thể tính phí nếu dự án bật thanh toán. Gói ChatGPT không được dùng để gọi API Google.
-401/key invalid: tạo key mới trong Google AI Studio rồi dán đủ.
-403: kiểm tra dự án, quyền, hạn chế key/khu vực.
-404: đổi mã mô hình trong Tùy chọn theo tài khoản, không tự thử hàng loạt.
-429: xem Usage/Rate limits trong AI Studio; đợi quota, không bấm liên tục.
-Kết quả bị cắt: giảm số câu/nguồn. Kết quả JSON lỗi/chưa hoàn tất không ghi đè đề.
-Lỗi mạng/CORS: thử bản GitHub Pages HTTPS, kiểm tra mạng/hạn chế key. Không gửi key qua trang proxy lạ.
-Hủy chờ không bảo đảm hủy phí của yêu cầu đã gửi.
-
-NGUỒN KỸ THUẬT CHÍNH THỨC - TRA CỨU 22/09/2026
-https://ai.google.dev/gemini-api/docs/api-key
-https://ai.google.dev/gemini-api/docs/models
-https://ai.google.dev/gemini-api/docs/generate-content/latest-model
-https://ai.google.dev/gemini-api/docs/generate-content/structured-output
-https://ai.google.dev/api/generate-content
-https://ai.google.dev/gemini-api/docs/pricing
-https://ai.google.dev/gemini-api/terms
-
-TRẠNG THÁI
-Đã kiểm thử logic Gemini bằng phản hồi giả lập, kiểm tra giao diện và tính nguyên vẹn các tệp giữ lại. Chưa thử bằng key Google thật, chưa thay tệp lên GitHub của bạn. Giáo viên vẫn phải đọc, giải và duyệt đề.
+TỆP CHÍNH
+- index.html: website dùng trên GitHub Pages hoặc mở trực tiếp.
+- TAI_LIEU_RIENG_KHONG_DANG_GITHUB/Bo_nguon_chuyen_mon.json: bộ nguồn chuyên môn nạp trong Kho tri thức, không cần đăng công khai.
+- Excel_mau/: 58 mẫu Excel theo khối/môn.
