@@ -1,10 +1,5 @@
-RIENG_TU_KHONG_DANG_GITHUB/
-ma_nguon/data/
+TAI_LIEU_RIENG_KHONG_DANG_GITHUB/
+*.json
 .env
 .env.*
-!.env.example
-.dev.vars*
-*.zip
-*.log
-node_modules/
-.wrangler/
+*.key

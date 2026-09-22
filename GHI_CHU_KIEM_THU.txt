@@ -1,0 +1,8 @@
+﻿GEMINI 2.2 - KIỂM THỬ
+
+27 kiểm thử logic: địa chỉ Google, x-goog-api-key, không key trong URL/body, JSON Schema, phản hồi thử, giữ ma trận đã duyệt, lỗi HTTP, safety, kết quả bị cắt, hủy, đổi model, 58 hồ sơ.
+13 kiểm tra giao diện/hiển thị: tiêu đề, link AI Studio, nút kết nối giả lập, xóa key trong ô, JSON không key, nạp 10 mục chương trình, mở minh họa/ma trận, font xem trước Times New Roman 14, ngắt không mất đề, diện thoại không tràn ngang, không lỗi JavaScript.
+CSP: đã tính lại 7 hash script và đổi connect-src sang API Google.
+58 Excel, JSON nguồn riêng và 6 module chức năng gốc được giữ nguyên từng byte. Không chạy lại toàn bộ kiểm định chuyên môn/Excel của các bản trước.
+Trình duyệt kiểm thử không cho điều hướng URL/file do chính sách môi trường. Đã dùng set_content để hiển thị mã tạo sẵn, không thay đổi chính sách. Giao diện dùng mock kết nối; logic transport được thử riêng trong Node.
+CHƯA gọi Gemini bằng key thật; CHƯA kiểm chứng quota/cước; CHƯA cập nhật GitHub của người dùng.

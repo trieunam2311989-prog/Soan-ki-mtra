@@ -1,463 +1,331 @@
 {
-  "version": "2.0",
-  "profiles": 58,
-  "xlsx_templates": 58,
-  "provider_api_key_created": false,
-  "provider_api_tested_live": false,
-  "application_token_created": true,
-  "public_index_sha256": "3485d9e49bb9ba982ad9f729c4da8a0821da30f749d799825c16688e908cbe21",
+  "version": "2.2-gemini",
+  "created": "2026-09-22",
   "files": [
     {
       "path": ".gitignore",
-      "size": 117
+      "bytes": 59,
+      "sha256": "157cead01fa9d46bf334898c56d1ac685eaa0a0dffb9cf9270c0c765e6c5bd0c"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "path": "BAT_DAU_TAI_DAY.txt",
-      "size": 5522
-    },
-    {
-      "path": "CAI_AI_CHO_GITHUB_WINDOWS.cmd",
-      "size": 204
-    },
-    {
-      "path": "DANH_MUC_MON_LOP.txt",
-      "size": 5298
-    },
-    {
-      "path": "De_minh_hoa/T5-GKI_student.docx",
-      "size": 31456
-    },
-    {
-      "path": "De_minh_hoa/T5-GKI_teacher.docx",
-      "size": 34409
-    },
-    {
-      "path": "De_minh_hoa/TV4-GKI_student.docx",
-      "size": 33765
-    },
-    {
-      "path": "De_minh_hoa/TV4-GKI_teacher.docx",
-      "size": 40079
+      "bytes": 5749,
+      "sha256": "b51007ab102a06e61898d10dda0d5b8a4574b9b32d6a320a524b65a75bcf1fbc"
     },
     {
       "path": "Excel_mau/AN1.xlsx",
-      "size": 13680
+      "bytes": 13680,
+      "sha256": "54339d42863538f5409a3e7c4a4342b6829c70bd86b425e140f8fa9887ead2a5"
     },
     {
       "path": "Excel_mau/AN2.xlsx",
-      "size": 13680
+      "bytes": 13680,
+      "sha256": "bbad6f8ec4f96e950e30ffa0987f521f755d9eae47dc7d236693f8cdf76e7559"
     },
     {
       "path": "Excel_mau/AN3.xlsx",
-      "size": 13680
+      "bytes": 13680,
+      "sha256": "9b923796eaee15a79f5fc7075b236e28e68c94d56116d9c774c7c01d8849ae85"
     },
     {
       "path": "Excel_mau/AN4.xlsx",
-      "size": 13680
+      "bytes": 13680,
+      "sha256": "349189200956bb3f46913ffd6dcfeeef4f3882a93467a4be35330226f974ee66"
     },
     {
       "path": "Excel_mau/AN5.xlsx",
-      "size": 13680
+      "bytes": 13680,
+      "sha256": "76c02378405835ba7b3f3db7d06703756e7ec8de7033fc8bd1f755a44cc9dcc2"
     },
     {
       "path": "Excel_mau/CN3.xlsx",
-      "size": 86469
+      "bytes": 86469,
+      "sha256": "3d7bdd212f6e9d630130a63f57f17787faa2f0367eb4be4aa1e54283208f088d"
     },
     {
       "path": "Excel_mau/CN4.xlsx",
-      "size": 86469
+      "bytes": 86469,
+      "sha256": "2e50ea73c7150ce334dc51afe4eed9d54d31f958529d92dfbac986a428caa132"
     },
     {
       "path": "Excel_mau/CN5.xlsx",
-      "size": 86469
+      "bytes": 86469,
+      "sha256": "5430af9ac2dd7c30fd0f00dc2a3ffbbb89eac4dfccb09aa6b709c86929f1dd0d"
     },
     {
       "path": "Excel_mau/DD1.xlsx",
-      "size": 13683
+      "bytes": 13683,
+      "sha256": "3ec8f05675becff7e1ed6bc93ba1bb1e8b7f0c591db22517d72fee7f1b58409b"
     },
     {
       "path": "Excel_mau/DD2.xlsx",
-      "size": 13683
+      "bytes": 13683,
+      "sha256": "6deaa2f2f80f2aa8c5e9c9c8841837df0733757f11631ba613898f5cb98b33ca"
     },
     {
       "path": "Excel_mau/DD3.xlsx",
-      "size": 13683
+      "bytes": 13683,
+      "sha256": "3edf78dc8c45bc89499f425a9fe67b890f552ed6562ad64a0ccda4fe7a703766"
     },
     {
       "path": "Excel_mau/DD4.xlsx",
-      "size": 13683
+      "bytes": 13683,
+      "sha256": "5213b9fd88fc0bba0c2fd1ae13e14e5ad42de3083151a75fc90ee8d6a7fa02b1"
     },
     {
       "path": "Excel_mau/DD5.xlsx",
-      "size": 13683
+      "bytes": 13683,
+      "sha256": "1fccf0503391a785ecaa2ce64bcb20d21dd59f4dbeac256befed76c818292468"
     },
     {
       "path": "Excel_mau/DTTS1.xlsx",
-      "size": 13701
+      "bytes": 13701,
+      "sha256": "12d4619becd814c96062595044686488caf0779f7af3bb5afe37f530325ff03d"
     },
     {
       "path": "Excel_mau/DTTS2.xlsx",
-      "size": 13701
+      "bytes": 13701,
+      "sha256": "660171e91e6500f0448aa3c203e9ab3ccc526188c94560a43de58defb200154e"
     },
     {
       "path": "Excel_mau/DTTS3.xlsx",
-      "size": 13701
+      "bytes": 13701,
+      "sha256": "6a87143f14bea596927c733cf36828658c635a562f9273f779950b591a6a138f"
     },
     {
       "path": "Excel_mau/DTTS4.xlsx",
-      "size": 13701
+      "bytes": 13701,
+      "sha256": "4bd0ff0b0281457672231e7d91d903a53bb85e09107f70128f1b37b5efa57abd"
     },
     {
       "path": "Excel_mau/DTTS5.xlsx",
-      "size": 13701
+      "bytes": 13701,
+      "sha256": "d3cc94cee6e8162214ed7165cb0614de2a0e1f31243cd52ed4089b8099377c9c"
     },
     {
       "path": "Excel_mau/GDTC1.xlsx",
-      "size": 13694
+      "bytes": 13694,
+      "sha256": "e7089a4e11a67b806208d3f5da7c06d742d87bbbf6ef12c567eab7e55c5b64bd"
     },
     {
       "path": "Excel_mau/GDTC2.xlsx",
-      "size": 13694
+      "bytes": 13694,
+      "sha256": "86665d52f1ce8783e2707108689896d810d61c4ed63c51f547a6efd1f7559e1e"
     },
     {
       "path": "Excel_mau/GDTC3.xlsx",
-      "size": 13694
+      "bytes": 13694,
+      "sha256": "c87d0410794ea797f6283e4c3d23c435852ccdde20cc93e0d0bf84ab640247bc"
     },
     {
       "path": "Excel_mau/GDTC4.xlsx",
-      "size": 13694
+      "bytes": 13694,
+      "sha256": "3a12902a0bcc588fe65dd4b42e206581efd2e47fa61b9bcc1bf91d8b145cee4a"
     },
     {
       "path": "Excel_mau/GDTC5.xlsx",
-      "size": 13694
+      "bytes": 13694,
+      "sha256": "48aa5235794d630640aa3f787a9ee71c41cdc5a89e499886b003818a8928f231"
     },
     {
       "path": "Excel_mau/HDTN1.xlsx",
-      "size": 13700
+      "bytes": 13700,
+      "sha256": "2a37d5ea639d5da01a2051cdd3c5e4787e046bd8346b0510bde4c9a2fb013f94"
     },
     {
       "path": "Excel_mau/HDTN2.xlsx",
-      "size": 13700
+      "bytes": 13700,
+      "sha256": "c0fe61e26bbd39247b300b9f531d7226d26a0de66326f1c65284be1a58383c28"
     },
     {
       "path": "Excel_mau/HDTN3.xlsx",
-      "size": 13700
+      "bytes": 13700,
+      "sha256": "9bd94602c01d9a31a403088d701605b0e5da89acf19d97caeed2601f7b868c4d"
     },
     {
       "path": "Excel_mau/HDTN4.xlsx",
-      "size": 13700
+      "bytes": 13700,
+      "sha256": "5e9315bcd085f51f7863f539d46e463b6af0b5b6db40e27ab7295312a48907d1"
     },
     {
       "path": "Excel_mau/HDTN5.xlsx",
-      "size": 13700
+      "bytes": 13700,
+      "sha256": "6c246b238d658ffa18128d3a0bbedbf2c3ad40a4f111eb8f984e2ed01b7fa16f"
     },
     {
       "path": "Excel_mau/KH4.xlsx",
-      "size": 86463
+      "bytes": 86463,
+      "sha256": "fa1a7585894247c9997296f35ae0bec37e14e50e45f8b519d730132b8446e5f8"
     },
     {
       "path": "Excel_mau/KH5.xlsx",
-      "size": 86463
+      "bytes": 86463,
+      "sha256": "29742165976bf126432e23ff9ae983d0d67669fab064b9b0fbaea9926cd9052c"
     },
     {
       "path": "Excel_mau/LSDL4.xlsx",
-      "size": 86513
+      "bytes": 86513,
+      "sha256": "5a6bfa2fad8dda75c57532ad8ec9c9e3d870f3c3a6fa60d9f04d9c97599023f6"
     },
     {
       "path": "Excel_mau/LSDL5.xlsx",
-      "size": 86513
+      "bytes": 86513,
+      "sha256": "64f7caa3d5f2c5bbba1433a3ed78da35affdbb115a9004b6bf4ea67d734c95dc"
     },
     {
       "path": "Excel_mau/MT1.xlsx",
-      "size": 13681
+      "bytes": 13681,
+      "sha256": "7913bdbb09b0c441279b038db14b141e5071efd89ad0875776c81b2292bcda4a"
     },
     {
       "path": "Excel_mau/MT2.xlsx",
-      "size": 13681
+      "bytes": 13681,
+      "sha256": "008a6888999a11aa1ad0f61f7c249b6d06a79c1f37034b19821648d72977bc94"
     },
     {
       "path": "Excel_mau/MT3.xlsx",
-      "size": 13681
+      "bytes": 13681,
+      "sha256": "0ae45d149be48d44d88eccb2ca1bacdd52b5773a590345f7d4323c97bad31c67"
     },
     {
       "path": "Excel_mau/MT4.xlsx",
-      "size": 13681
+      "bytes": 13681,
+      "sha256": "284c512e1c3d428ba6a67654d34d53053f05999784f5cb6cf8b0bfe87e889791"
     },
     {
       "path": "Excel_mau/MT5.xlsx",
-      "size": 13681
+      "bytes": 13681,
+      "sha256": "c3d427084ad0974add13ffd73615cbb4de98add4cb1bf82ed9419f98b0bf6edb"
     },
     {
       "path": "Excel_mau/NN1.xlsx",
-      "size": 86478
+      "bytes": 86478,
+      "sha256": "2a614d7bc143f1c9f19a40ee0b70dcd052bfee1c3e08a61d8915261c9ae2d251"
     },
     {
       "path": "Excel_mau/NN2.xlsx",
-      "size": 86478
+      "bytes": 86478,
+      "sha256": "6fce440e38b88c771efe29253590193e71f3691d59c30020ed40430b59296a83"
     },
     {
       "path": "Excel_mau/NN3.xlsx",
-      "size": 86478
+      "bytes": 86478,
+      "sha256": "771fb7787dcd2b33aef13cc47f174f28f78f28dcfcdd8626e619cb07552b94fc"
     },
     {
       "path": "Excel_mau/NN4.xlsx",
-      "size": 86478
+      "bytes": 86478,
+      "sha256": "ac18dc9fa6c8b5333dfa2c94e2f5a45eb704e04b121e81ec1d06c5684c29ceec"
     },
     {
       "path": "Excel_mau/NN5.xlsx",
-      "size": 86478
+      "bytes": 86478,
+      "sha256": "4184ff88a154d14bdc9c39021e873b952e027ce82c901d4cdfec957aa79dc317"
     },
     {
       "path": "Excel_mau/T1.xlsx",
-      "size": 100471
+      "bytes": 100471,
+      "sha256": "167a7b3a9565a727e7abdab5526f4aa516b7c86fe275726a79e353446c0e276f"
     },
     {
       "path": "Excel_mau/T2.xlsx",
-      "size": 100115
+      "bytes": 100115,
+      "sha256": "1c6e819288753d4e9a8cb4aca94606bad5acb970b4135078e4d5ca55abbcb25c"
     },
     {
       "path": "Excel_mau/T3.xlsx",
-      "size": 100177
+      "bytes": 100177,
+      "sha256": "450d053a65eae1bbc913bf8d2e14f2f413fb23706e3f7db63db21e9cc9ec8a1d"
     },
     {
       "path": "Excel_mau/T4-GKI.xlsx",
-      "size": 160541
+      "bytes": 160541,
+      "sha256": "50d6a1563c31a3e885e951472641ebfe9afed91f4563f435d3a7865510e7c5ce"
     },
     {
       "path": "Excel_mau/T5-GKI.xlsx",
-      "size": 155441
+      "bytes": 155441,
+      "sha256": "be82acb240874450bba63504473e0f7c47e202d3e724378659394a8c9f84c2b9"
     },
     {
       "path": "Excel_mau/TIN3.xlsx",
-      "size": 86461
+      "bytes": 86461,
+      "sha256": "16124b423e0f42466e83aca3a223e6458d2e0f85888d46927a38abcf248a5302"
     },
     {
       "path": "Excel_mau/TIN4.xlsx",
-      "size": 86461
+      "bytes": 86461,
+      "sha256": "48731a92e21715a24eb721f90f6232de5c2cffb7bd7a18812a878725c1ccb9e3"
     },
     {
       "path": "Excel_mau/TIN5.xlsx",
-      "size": 86461
+      "bytes": 86461,
+      "sha256": "a06eab20b0b4c424c58a81bc6d1758cbc8625b2031c0b9eb22c76ed3b370ceec"
     },
     {
       "path": "Excel_mau/TNXH1.xlsx",
-      "size": 13695
+      "bytes": 13695,
+      "sha256": "c05f78e25144d14a179bbe3a6f2bdc4766d451669e35228b989f5de0e5751ad5"
     },
     {
       "path": "Excel_mau/TNXH2.xlsx",
-      "size": 13695
+      "bytes": 13695,
+      "sha256": "34526eeb2476a730ad3d52f1b267a33982c6f463f2b2b26b364f9bd0b16c194a"
     },
     {
       "path": "Excel_mau/TNXH3.xlsx",
-      "size": 13695
+      "bytes": 13695,
+      "sha256": "6f91f2bae08887573185f2386ae7757ac217c90615200f6c88e000f2adc4298c"
     },
     {
       "path": "Excel_mau/TV1.xlsx",
-      "size": 142967
+      "bytes": 142967,
+      "sha256": "a9bf27e72cbe3c57274bbe94be7dc4061898ba9a178ccca09126f8d93d24b152"
     },
     {
       "path": "Excel_mau/TV2.xlsx",
-      "size": 143089
+      "bytes": 143089,
+      "sha256": "8a127410e051773d1ff1368fa7f4af2938027ba5a2966a9f7cc747a42258c904"
     },
     {
       "path": "Excel_mau/TV3.xlsx",
-      "size": 143035
+      "bytes": 143035,
+      "sha256": "4aa03c9fb3544676635dcd2102a6e55ce00ec84ca67dc914b87417461c310aa8"
     },
     {
       "path": "Excel_mau/TV4-GKI.xlsx",
-      "size": 195400
+      "bytes": 195400,
+      "sha256": "5d5357ebe59cef56e386929a3014666eb1a84d67d1a5b04cb3f7e89c06d21716"
     },
     {
       "path": "Excel_mau/TV5-GKI.xlsx",
-      "size": 193146
+      "bytes": 193146,
+      "sha256": "bac1f6849c1196a84a57cac3a414562f58f67ef26982cc7f7b2513fed31210d6"
     },
     {
-      "path": "GITHUB_CHI_TAI_THU_MUC_NAY/.nojekyll",
-      "size": 0
+      "path": "GHI_CHU_KIEM_THU.txt",
+      "bytes": 1240,
+      "sha256": "31bf20d572d98ba979f134e8c1b31592d725fc2d5dccc14d794b5ff5afc5b380"
     },
     {
-      "path": "GITHUB_CHI_TAI_THU_MUC_NAY/index.html",
-      "size": 328341
+      "path": "KIEM_THU_V2_2.json",
+      "bytes": 5612,
+      "sha256": "32f00710c4f50606947a003f8d9fc088bde6c3e19a8843e0dee74291fd5b4a2d"
     },
     {
-      "path": "HUONG_DAN_AI.txt",
-      "size": 5863
-    },
-    {
-      "path": "KIEM_THU_V2.txt",
-      "size": 1868
-    },
-    {
-      "path": "MO_WEB_CO_AI_MAC_LINUX.sh",
-      "size": 168
-    },
-    {
-      "path": "MO_WEB_CO_AI_WINDOWS.cmd",
-      "size": 246
-    },
-    {
-      "path": "NGUON_VA_PHAM_VI.txt",
-      "size": 3036
-    },
-    {
-      "path": "RIENG_TU_KHONG_DANG_GITHUB/Bo_nguon_chuyen_mon.json",
-      "size": 159907
-    },
-    {
-      "path": "RIENG_TU_KHONG_DANG_GITHUB/Ma_ket_noi_AI.txt",
-      "size": 426
-    },
-    {
-      "path": "RIENG_TU_KHONG_DANG_GITHUB/app-access-token.txt",
-      "size": 65
-    },
-    {
-      "path": "backend_cloudflare/.gitignore",
-      "size": 42
-    },
-    {
-      "path": "backend_cloudflare/ai-contract.mjs",
-      "size": 7609
-    },
-    {
-      "path": "backend_cloudflare/cai-cloudflare.js",
-      "size": 2550
-    },
-    {
-      "path": "backend_cloudflare/shared.mjs",
-      "size": 67375
-    },
-    {
-      "path": "backend_cloudflare/tests-worker.mjs",
-      "size": 2642
-    },
-    {
-      "path": "backend_cloudflare/worker.mjs",
-      "size": 4541
-    },
-    {
-      "path": "backend_cloudflare/wrangler.jsonc",
-      "size": 385
+      "path": "TAI_LIEU_RIENG_KHONG_DANG_GITHUB/Bo_nguon_chuyen_mon.json",
+      "bytes": 159907,
+      "sha256": "1d5f58c1d66c1cb577bf83acc5ae61da005e75d0e258e37075bbbec771875c17"
     },
     {
       "path": "index.html",
-      "size": 328341
-    },
-    {
-      "path": "ma_nguon/.dockerignore",
-      "size": 36
-    },
-    {
-      "path": "ma_nguon/.env.example",
-      "size": 175
-    },
-    {
-      "path": "ma_nguon/.gitignore",
-      "size": 46
-    },
-    {
-      "path": "ma_nguon/ai-contract.js",
-      "size": 7639
-    },
-    {
-      "path": "ma_nguon/build.js",
-      "size": 948
-    },
-    {
-      "path": "ma_nguon/data/01_HO_SO_NGUON_VA_CAU_HINH.md",
-      "size": 23638
-    },
-    {
-      "path": "ma_nguon/data/02_MA_TRAN_DANG_CHU.txt",
-      "size": 59329
-    },
-    {
-      "path": "ma_nguon/data/03_CHI_DAN_TRO_LY.txt",
-      "size": 10179
-    },
-    {
-      "path": "ma_nguon/data/03_TAP_HUAN_DANG_CHU.txt",
-      "size": 19242
-    },
-    {
-      "path": "ma_nguon/data/05_CANH_BAO_TAI_LIEU.md",
-      "size": 10990
-    },
-    {
-      "path": "ma_nguon/data/catalog.json",
-      "size": 41380
-    },
-    {
-      "path": "ma_nguon/data/curricula.json",
-      "size": 89140
-    },
-    {
-      "path": "ma_nguon/data/knowledge.json",
-      "size": 167139
-    },
-    {
-      "path": "ma_nguon/data/matrix-templates.json",
-      "size": 104563
-    },
-    {
-      "path": "ma_nguon/mo-web.js",
-      "size": 1160
-    },
-    {
-      "path": "ma_nguon/package.json",
-      "size": 223
-    },
-    {
-      "path": "ma_nguon/public/app.js",
-      "size": 58210
-    },
-    {
-      "path": "ma_nguon/public/demos.js",
-      "size": 18718
-    },
-    {
-      "path": "ma_nguon/public/exports.js",
-      "size": 21910
-    },
-    {
-      "path": "ma_nguon/public/index.html",
-      "size": 328341
-    },
-    {
-      "path": "ma_nguon/public/index.template.html",
-      "size": 17522
-    },
-    {
-      "path": "ma_nguon/public/matrix.js",
-      "size": 32334
-    },
-    {
-      "path": "ma_nguon/qa/all_ui_report.json",
-      "size": 143
-    },
-    {
-      "path": "ma_nguon/qa/formula_report.json",
-      "size": 201
-    },
-    {
-      "path": "ma_nguon/qa/test-worker.log",
-      "size": 415
-    },
-    {
-      "path": "ma_nguon/server.js",
-      "size": 5439
-    },
-    {
-      "path": "ma_nguon/shared.js",
-      "size": 67412
-    },
-    {
-      "path": "ma_nguon/test-results.json",
-      "size": 99
-    },
-    {
-      "path": "ma_nguon/tests-v2.js",
-      "size": 5777
+      "bytes": 344034,
+      "sha256": "aede8cfc391bdcf71e767e20eba817d97e2b7c49694953e8d6626cc943b74eb8"
     }
   ]
 }

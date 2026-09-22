@@ -1,46 +1,56 @@
-﻿TRỢ LÝ RA ĐỀ TIỂU HỌC - PHIÊN BẢN 2.0
-Cập nhật: 22/09/2026. Giữ giao diện xanh của bản 1.1.
+﻿TRỢ LÝ RA ĐỀ TIỂU HỌC - GEMINI / GOOGLE AI STUDIO
+Phiên bản 2.2 - cập nhật 22/09/2026
 
-QUAN TRỌNG
-Bản này có 58 hồ sơ môn/lớp, không phải 58 môn học. Khung phần mềm đã mở rộng từ lớp 1 đến lớp 5. Kho chương trình đã tích hợp dạng nạp riêng gồm Toán và Tiếng Việt lớp 1-5, trích từ hai tài liệu bạn cung cấp. Các môn khác có khung ma trận/nhiệm vụ, nhưng cần giáo viên nạp chương trình, YCCĐ và kế hoạch thực dạy đúng môn/lớp trước khi nhờ AI ra đề. Không phải ngân hàng đề đã duyệt cho tất cả môn.
+CÁCH DÙNG NGẮN NHẤT
+1. Trên bản cũ, tải bản sao JSON của hồ sơ đang làm. Giải nén toàn bộ gói mới.
+2. Thay index.html trên GitHub bằng index.html ở ngoài cùng gói này. Chỉ tải index.html, không tải ZIP hay thư mục tài liệu riêng. Sau khi GitHub xuất bản, mở web và nhấn Ctrl+F5. Cũng có thể mở index.html tại máy để dùng phần soạn; kết nối mạng phụ thuộc trình duyệt.
+3. Mở Kết nối AI. Đúng bản mới có tiêu đề: Kết nối Gemini - Google AI Studio.
+4. Bấm Mở Google AI Studio để lấy key. Đăng nhập Google, mở API Keys, bấm Create API key. Chọn hoặc tạo project khi được hỏi. Sao chép khóa được Google cấp.
+5. Quay lại web, dán key và bấm Kết nối Gemini. Đọc và xác nhận lần gửi thử. Khi thành công, về Hồ sơ đề để làm việc.
 
-1. MỞ DÙNG NGAY, CHƯA CẦN API
-Giải nén TOÀN BỘ gói. Nhấp đúp index.html ngoài cùng.
-- Chọn khối 1, 2, 3, 4 hoặc 5; chọn môn.
-- Vào Kho tri thức > Thêm tài liệu > chọn RIENG_TU_KHONG_DANG_GITHUB/Bo_nguon_chuyen_mon.json. Bộ này chứa chương trình Toán/Tiếng Việt đúng lớp; không tự chứng minh phạm vi đã học trong kì.
-- Môn khác: dùng Thêm tài liệu hoặc Dán YCCĐ/kế hoạch. Không dùng YCCĐ Toán lớp 5 cho các môn/lớp khác.
-- Trong Hồ sơ đề: điền thông tin, phạm vi, đợt đánh giá, thang điểm. Đối chiếu và xác nhận các ô phạm vi/nguồn/thang điểm.
-- Ma trận & đặc tả > Nạp khung bài học từ mẫu gốc. Khung mới chưa phân bổ số câu. Các dòng gợi ý không phải toàn bộ phạm vi bắt buộc phải kiểm tra.
-- Nhập số câu/ý, kiểm tra đơn giá; số điểm và % tự tính.
-- Bấm Áp dụng ma trận vào khung câu hỏi. Thao tác này không tự viết câu hỏi.
-- Biên soạn câu hỏi > Sửa để điền nội dung, đáp án, hướng dẫn chấm. Hoặc dùng Lấy câu lệnh cho ChatGPT, rồi Nhập kết quả JSON.
-- Xem & xuất đề: xem Bản học sinh, Đáp án; rà soát, xuất Word/Excel hoặc In/Lưu PDF.
+TRANG TẠO KHÓA CHÍNH THỨC
+https://aistudio.google.com/apikey
+Không phải Google/Looker Studio. Đây là Google AI Studio cho Gemini API.
+Không dùng OpenAI key (sk-...) hay APP_ACCESS_TOKEN cũ. Không thể đổi tên một key OpenAI thành key Google.
+Gói tệp không chứa key, quota hoặc tài khoản Google của bạn. Key thật phải được tạo trong tài khoản của bạn. Nếu nút tạo khóa không khả dụng, kiểm tra quyền dự án/đơn vị quản lí.
+Nên tạo key mới trực tiếp trong AI Studio. Theo hướng dẫn Google cập nhật tháng 9/2026, key mới là authorization key; khóa standard cũ cần chuyển đổi. Ứng dụng không ép key bắt đầu bằng AIza, chỉ Google xác minh key thật.
 
-Bốn hồ sơ Toán/Tiếng Việt 4-5 vẫn có Mở đề minh họa để thử thao tác. Các hồ sơ mới có Mở khung ma trận; không giả vờ đã có đề mới do AI sinh.
+KHÔNG CẦN
+Không Cloudflare, không Node.js, không tệp CMD, không địa chỉ Worker, không mã truy cập website.
+Mặc định gemini-3.8-flash. Trong Tùy chọn mô hình có gemini-3.5-flash-lite; cũng có thể nhập mã Gemini tương thích generateContent và JSON Schema được tài khoản hỗ trợ. Đổi mô hình cần dán key và kết nối lại. Không tự thử nhiều mô hình hay tự gửi lại khi lỗi.
 
-2. MA TRẬN GIỮ KHUNG MẪU ĐÃ GỬI
-TT; Chương/Chủ đề; Nội dung; YCCĐ; Số tiết; Tỉ lệ theo tiết; Điểm cần đạt; Nhiều lựa chọn; Đúng-Sai; Nối cột; Điền khuyết; Tự luận 1/2/3. Bảy nhóm có ba cột Biết/Hiểu/VD. Tự luận 1/2/3 là nhóm điểm, không phải ba mức độ.
-Giáo viên nhập 1 = một ý chấm; mã C1, C1a... ghi riêng. Ví dụ: 4 ý x 0,25 = 1 điểm = 10% thang 10. Đổi đơn giá 0,5 -> 2 điểm -> 20%.
-Tỉ lệ theo tiết khác tỉ lệ theo điểm. Phân bổ thiếu điểm không bị tự đẩy thành 100%.
-Xuất Excel có công thức: MA TRAN, DAC TA liên kết, CAU Y HIEN TAI, HUONG DAN. Chỉ sửa ô nhập; để Excel tính Automatic. Tệp Excel là bản sao độc lập, không tự đồng bộ ngược về web.
-Tiếng Việt: khung Đọc/Viết kế thừa mẫu. Các thang 3/7/10 là GIÁ TRỊ THAM KHẢO; giáo viên chốt theo lớp, đợt và hướng dẫn của đơn vị. Không cộng đọc 10 và viết 10 thành điểm môn 20.
-Môn nhận xét: dùng bảng nhiệm vụ/YCCĐ/minh chứng/tiêu chí, không ép thang 10 hay % điểm môn.
+LẤY NGUỒN VÀ RA ĐỀ
+Trong Kho tri thức, nạp:
+TAI_LIEU_RIENG_KHONG_DANG_GITHUB/Bo_nguon_chuyen_mon.json
+Giữ nguyên 58 hồ sơ lớp/môn, 58 mẫu Excel cũ và kho chương trình Toán/Tiếng Việt lớp 1-5. Các môn khác cần nạp YCCĐ, kế hoạch đúng môn/lớp; có khung không có nghĩa đã có đủ ngân hàng đề.
+Chọn khối/môn -> nạp nguồn -> xác nhận phạm vi và thang điểm -> lập ma trận -> giáo viên xác nhận -> soạn câu hỏi -> rà soát -> xuất tệp.
+Ma trận tự tính giữ nguyên. Word giữ Times New Roman 14, A4, lề phải 3 cm; trái 1,5 cm; trên/dưới 2 cm. Không kèm phông chữ.
 
-3. ĐỊNH DẠNG ĐỀ
-Word đề và đáp án: Times New Roman 14 pt, A4; phải 3 cm, trái 1,5 cm, trên/dưới 2 cm. Không đính kèm tệp phông chữ. Máy cần có phông này để hiển thị đúng. Khi in, không ghi đè lề bằng thiết lập khác.
+BẢO MẬT VÀ DỮ LIỆU
+Key chỉ nằm trong bộ nhớ tab. Ứng dụng không lưu key vào HTML, JSON, localStorage hay sessionStorage. Ngắt & xóa khóa bỏ key khỏi phiên, không xóa đề. Tải lại trang cần nhập lại.
+Key trong trình duyệt vẫn có thể bị lấy bởi mã trang, tiện ích hoặc người truy cập máy. Chỉ dùng máy và website bạn kiểm soát. Google khuyến nghị giữ key trên máy chủ cho ứng dụng triển khai chính thức. Không gửi key trong chat, ảnh chụp hay GitHub. Mỗi người dùng key của mình.
+Key chỉ gửi bằng header x-goog-api-key tới generativelanguage.googleapis.com; không qua proxy, không gửi key trong URL/nội dung đề. CSP được cập nhật chỉ cho phép kết nối API Google.
+Trước mỗi lần soạn, web hỏi xác nhận gửi phạm vi, ma trận và nguồn liên quan tới Google.
+Dịch vụ không thu phí có thể dùng nội dung để cải thiện sản phẩm, có thể có người rà soát. Không gửi đề mật, thông tin cá nhân học sinh hay dữ liệu nhạy cảm. Xem đúng điều khoản dịch vụ áp dụng cho tài khoản.
 
-4. ĐƯA LÊN GITHUB
-CHỈ tải nội dung thư mục GITHUB_CHI_TAI_THU_MUC_NAY lên repository. Chọn Settings > Pages > Deploy from a branch > main > /(root) > Save.
-KHÔNG tải cả ZIP, RIENG_TU_KHONG_DANG_GITHUB hoặc ma_nguon/data lên kho công khai. index.html đã gộp JS/CSS và khung ứng dụng; kho chương trình đầy đủ và mã truy cập được nạp riêng, không nhúng vào mã công khai.
+QUOTA VÀ LỖI
+Có hạn mức miễn phí tùy mô hình/tài khoản, không phải dùng vô hạn. Kết nối gửi một lần thử ngắn, tiêu thụ quota và có thể tính phí nếu dự án bật thanh toán. Gói ChatGPT không được dùng để gọi API Google.
+401/key invalid: tạo key mới trong Google AI Studio rồi dán đủ.
+403: kiểm tra dự án, quyền, hạn chế key/khu vực.
+404: đổi mã mô hình trong Tùy chọn theo tài khoản, không tự thử hàng loạt.
+429: xem Usage/Rate limits trong AI Studio; đợi quota, không bấm liên tục.
+Kết quả bị cắt: giảm số câu/nguồn. Kết quả JSON lỗi/chưa hoàn tất không ghi đè đề.
+Lỗi mạng/CORS: thử bản GitHub Pages HTTPS, kiểm tra mạng/hạn chế key. Không gửi key qua trang proxy lạ.
+Hủy chờ không bảo đảm hủy phí của yêu cầu đã gửi.
 
-5. API VÀ MÃ KẾT NỐI
-Mã truy cập website đã tạo: RIENG_TU_KHONG_DANG_GITHUB/Ma_ket_noi_AI.txt. Đây KHÔNG phải OpenAI API key; không kèm hạn mức AI.
-Cách A: cài Node.js LTS >=22, mở MO_WEB_CO_AI_WINDOWS.cmd. Trên trang máy chủ cục bộ, mục Kết nối AI cho nhập OpenAI API key vào bộ nhớ máy chủ.
-Cách B: website GitHub cần Worker riêng. Mở CAI_AI_CHO_GITHUB_WINDOWS.cmd để thiết lập trong tài khoản Cloudflare của bạn. Xem HUONG_DAN_AI.txt.
-Phải tạo khóa OpenAI thật bằng tài khoản của bạn. Không gửi khóa vào ChatGPT hoặc GitHub. Phí API riêng với gói ChatGPT.
+NGUỒN KỸ THUẬT CHÍNH THỨC - TRA CỨU 22/09/2026
+https://ai.google.dev/gemini-api/docs/api-key
+https://ai.google.dev/gemini-api/docs/models
+https://ai.google.dev/gemini-api/docs/generate-content/latest-model
+https://ai.google.dev/gemini-api/docs/generate-content/structured-output
+https://ai.google.dev/api/generate-content
+https://ai.google.dev/gemini-api/docs/pricing
+https://ai.google.dev/gemini-api/terms
 
-6. LƯU HỒ SƠ
-Lưu hồ sơ ghi trên trình duyệt này; không tự đồng bộ. Dùng Tải bản sao JSON để sao lưu. Trước khi thay bản 1.1, sao lưu hồ sơ cũ. Mở tệp hồ sơ JSON để nhập lại; trạng thái duyệt bị hủy để kiểm tra lại. Không chia sẻ JSON có đáp án cho học sinh.
-
-7. GIỚI HẠN
-Không tự kiểm chứng mọi đáp án, phạm vi, thời lượng hay hiệu lực pháp lý. Chưa đọc/tạo hình, bản đồ, âm thanh nghe thực tế. Đề có các phần này cần giáo viên bổ sung và thử. DOC cũ/PDF cần chuyển sang DOCX/TXT. Chỉ trích chữ, không coi văn bản trích là bản gốc đầy đủ hình/công thức. Giáo viên phải duyệt đề trước khi dùng chính thức.
+TRẠNG THÁI
+Đã kiểm thử logic Gemini bằng phản hồi giả lập, kiểm tra giao diện và tính nguyên vẹn các tệp giữ lại. Chưa thử bằng key Google thật, chưa thay tệp lên GitHub của bạn. Giáo viên vẫn phải đọc, giải và duyệt đề.

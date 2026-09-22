@@ -1,0 +1,194 @@
+{
+  "version": "2.2-gemini",
+  "date": "2026-09-22",
+  "real_google_key_tested": false,
+  "deployed_to_user_github": false,
+  "unit_tests": {
+    "mocked": true,
+    "real_key_tested": false,
+    "total": 27,
+    "results": [
+      {
+        "name": "Key format rejects OpenAI and URL; supports standard and auth-like key formats",
+        "status": "PASS"
+      },
+      {
+        "name": "One real-request path; official host, header authentication, no key in URL/body",
+        "status": "PASS"
+      },
+      {
+        "name": "Connection test contains no teacher documents",
+        "status": "PASS"
+      },
+      {
+        "name": "Gemini generation uses structured schema and preserves existing contract",
+        "status": "PASS"
+      },
+      {
+        "name": "Draft generation rejects altered approved matrix",
+        "status": "PASS"
+      },
+      {
+        "name": "Draft generation accepts unchanged approved matrix",
+        "status": "PASS"
+      },
+      {
+        "name": "HTTP 400 produces an error, no retry, disconnected on failed test",
+        "status": "PASS"
+      },
+      {
+        "name": "HTTP 401 produces an error, no retry, disconnected on failed test",
+        "status": "PASS"
+      },
+      {
+        "name": "HTTP 403 produces an error, no retry, disconnected on failed test",
+        "status": "PASS"
+      },
+      {
+        "name": "HTTP 404 produces an error, no retry, disconnected on failed test",
+        "status": "PASS"
+      },
+      {
+        "name": "HTTP 429 produces an error, no retry, disconnected on failed test",
+        "status": "PASS"
+      },
+      {
+        "name": "HTTP 500 produces an error, no retry, disconnected on failed test",
+        "status": "PASS"
+      },
+      {
+        "name": "HTTP 503 produces an error, no retry, disconnected on failed test",
+        "status": "PASS"
+      },
+      {
+        "name": "Invalid-key details cause a specific rejection without echoing the key",
+        "status": "PASS"
+      },
+      {
+        "name": "Reject incomplete or blocked result MAX_TOKENS",
+        "status": "PASS"
+      },
+      {
+        "name": "Reject incomplete or blocked result SAFETY",
+        "status": "PASS"
+      },
+      {
+        "name": "Reject incomplete or blocked result RECITATION",
+        "status": "PASS"
+      },
+      {
+        "name": "Reject incomplete or blocked result OTHER",
+        "status": "PASS"
+      },
+      {
+        "name": "Prompt safety block does not bypass filters",
+        "status": "PASS"
+      },
+      {
+        "name": "Empty and invalid JSON results rejected",
+        "status": "PASS"
+      },
+      {
+        "name": "Thought content is not shown or parsed as final output",
+        "status": "PASS"
+      },
+      {
+        "name": "No key getter and no ready state after clearing",
+        "status": "PASS"
+      },
+      {
+        "name": "Model change drops current key and rejects path injection",
+        "status": "PASS"
+      },
+      {
+        "name": "Cancelling pending request clears connection and does not retry",
+        "status": "PASS"
+      },
+      {
+        "name": "Only one pending request allowed",
+        "status": "PASS"
+      },
+      {
+        "name": "HTTP non-local origin is blocked before any network request",
+        "status": "PASS"
+      },
+      {
+        "name": "58 existing subject-grade profiles remain available",
+        "status": "PASS"
+      }
+    ]
+  },
+  "browser_tests": {
+    "mocked": true,
+    "method": "set_content with simulated connection interface; actual transport tested separately in Node",
+    "live_navigation": "blocked by environment policy, not relaxed",
+    "real_key_tested": false,
+    "total": 13,
+    "results": [
+      {
+        "name": "Initial UI and 58 profiles render",
+        "status": "PASS"
+      },
+      {
+        "name": "Connection page identifies Gemini and Google AI Studio",
+        "status": "PASS"
+      },
+      {
+        "name": "Official AI Studio key-management link present",
+        "status": "PASS"
+      },
+      {
+        "name": "Connection button handles success with mocked transport",
+        "status": "PASS"
+      },
+      {
+        "name": "API key input cleared after connection",
+        "status": "PASS"
+      },
+      {
+        "name": "UI project snapshot does not contain key",
+        "status": "PASS"
+      },
+      {
+        "name": "Existing ten curriculum sections import",
+        "status": "PASS"
+      },
+      {
+        "name": "Existing Toan 4 demo and matrix render",
+        "status": "PASS"
+      },
+      {
+        "name": "Exam preview retains Times New Roman 14 pt",
+        "status": "PASS"
+      },
+      {
+        "name": "Disconnect updates UI",
+        "status": "PASS"
+      },
+      {
+        "name": "Disconnect preserves exam",
+        "status": "PASS"
+      },
+      {
+        "name": "Mobile has no horizontal overflow",
+        "status": "PASS"
+      },
+      {
+        "name": "No JavaScript page errors",
+        "status": "PASS"
+      }
+    ]
+  },
+  "preservation": {
+    "xlsx_files_byte_identical": 58,
+    "private_source_byte_identical": true,
+    "first_six_code_modules_byte_identical": true,
+    "csp_hashes_verified": 7
+  },
+  "limitations": [
+    "No live key or quota verification.",
+    "Browser navigation was blocked by environment policy; UI was rendered with set_content and a simulated connection interface. Real transport logic tested separately with mocked responses.",
+    "Existing subjects without curriculum still require teacher-provided source material.",
+    "Browser API keys are not server-grade secret storage."
+  ]
+}
