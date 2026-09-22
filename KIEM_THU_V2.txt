@@ -1,0 +1,12 @@
+﻿KIỂM THỬ KĨ THUẬT V2 - 22/09/2026
+
+ĐÃ THỰC HIỆN
+- 72 kiểm thử Node: 58 hồ sơ/ma trận, công thức số lượng/đơn giá, kiểm soát đầu vào, bảo toàn ma trận, tách đáp án, máy chủ cục bộ và phản hồi AI GIẢ LẬP. Đạt 72/72.
+- 10 kiểm thử Worker: xác thực, origin, preflight, rate limiter, thiếu cấu hình, JSON lỗi, không cho đặt khóa từ trang công khai, phản hồi upstream GIẢ LẬP. Đạt 10/10.
+- Chromium: mở 58 hồ sơ, duyệt sáu màn hình mỗi hồ sơ; không lỗi JavaScript. Kiểm tra nạp nguồn, mở mẫu Toán 5, khung nhận xét, giao diện desktop/mobile. Dùng DOM set_content do chính sách môi trường chặn điều hướng trình duyệt; không phải kiểm thử end-to-end GitHub đã triển khai.
+- Xuất 58 tệp Excel mẫu; thêm 2 tệp QA có dữ liệu để thử. Bộ tính độc lập kiểm 10.544 công thức trong 60 workbook, kể cả liên kết sheet và giá trị chuỗi: không sai lệch phát hiện. Đổi số lượng và đơn giá: 4 x 0,25 = 1 (10%), 4 x 0,5 = 2 (20%), đặc tả liên kết cập nhật. Không dùng LibreOffice để tính Excel.
+- Kiểm XML bốn DOCX đề/đáp án Toán 5/Tiếng Việt 4: Times New Roman 14 pt, A4 và lề đúng thiết lập. Render/xem bản in đề Toán 5 năm trang, không thấy tràn lề/cắt chữ.
+
+CHƯA THỰC HIỆN
+Không tạo OpenAI API key thật; không gọi AI có phí; không triển khai GitHub/Cloudflare vào tài khoản người dùng. Script cài Windows được kiểm cú pháp/luồng, chưa chạy đăng nhập thật trên Windows. Chưa có đánh giá sư phạm độc lập cho tất cả hồ sơ.
+Các kiểm tra kĩ thuật KHÔNG thay giáo viên kiểm tra nguồn, nội dung, mức độ và đáp án.

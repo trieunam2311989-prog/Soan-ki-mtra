@@ -1,0 +1,50 @@
+﻿KẾT NỐI AI - WEBSITE RA ĐỀ V2
+
+1. PHÂN BIỆT HAI LOẠI KHÓA
+APP_ACCESS_TOKEN: mã truy cập máy chủ của website. Đã tạo ngẫu nhiên 64 ký tự trong RIENG_TU_KHONG_DANG_GITHUB/Ma_ket_noi_AI.txt. Chỉ bạn và người được phép dùng AI nên biết mã này. Mã không cấp hạn mức AI và không thay OpenAI API key.
+OPENAI_API_KEY: khóa do OpenAI cấp từ tài khoản của bạn. Gói này KHÔNG có khóa OpenAI thật, KHÔNG kèm tiền/hạn mức API và CHƯA triển khai máy chủ vào tài khoản của bạn.
+Vào https://platform.openai.com/api-keys để đăng nhập và tạo khóa trong project bạn quản lý. Cần quền và Billing/hạn mức phù hợp. Phí API tách khỏi gói ChatGPT. Không gửi khóa vào hội thoại, ảnh chụp, HTML, JavaScript hoặc GitHub.
+
+2. CÁCH DỄ NHẤT ĐỂ NHẬP API TRONG GIAO DIỆN: CHẠY TRÊN MÁY
+Cài Node.js bản LTS đang được hỗ trợ, tối thiểu 22: https://nodejs.org/en/download
+Giải nén đầy đủ, mở MO_WEB_CO_AI_WINDOWS.cmd. Chương trình mở http://127.0.0.1:8787 sau khi máy chủ sẵn sàng. Giữ cửa sổ lệnh mở. Trên Mac/Linux: chạy sh MO_WEB_CO_AI_MAC_LINUX.sh trong thư mục giải nén.
+Trong website > Kết nối AI:
+a) Địa chỉ Cloudflare Worker: để trống.
+b) Mã kết nối website: dán mã trong Ma_ket_noi_AI.txt.
+c) Khóa OpenAI API của bạn: dán khóa thật và bấm Đặt khóa vào bộ nhớ máy chủ.
+d) Bấm Kiểm tra máy chủ. Thông báo có cấu hình chưa chứng minh khóa/hạn mức hợp lệ.
+e) Bấm Thử gọi AI (có thể tính phí), đồng ý lời nhắc. Nút này thực sự gửi một yêu cầu nhỏ đến OpenAI.
+Khóa nhập trên giao diện chỉ được giữ trong bộ nhớ máy chủ, không ghi vào tệp/hồ sơ. Tắt máy chủ thì nhập lại. Mã website chỉ giữ trong tab trình duyệt. Trang chỉ được phục vụ trên máy này, không mở cổng ra Internet.
+
+3. DÙNG AI TRÊN WEBSITE GITHUB
+GitHub Pages chỉ phục vụ giao diện. Dùng máy chủ Cloudflare Worker riêng để bảo vệ khóa.
+- Đưa index.html trong GITHUB_CHI_TAI_THU_MUC_NAY lên GitHub Pages; lấy đường dẫn trang.
+- Cài Node.js >=22 và đăng ký tài khoản Cloudflare. Kiểm tra hạn mức/gói của các dịch vụ trước khi chạy.
+- Mở CAI_AI_CHO_GITHUB_WINDOWS.cmd. Script hỏi đồng ý, địa chỉ website, tên Worker; sau đó chạy Wrangler để đăng nhập, triển khai, nhập OPENAI_API_KEY ở lời nhắc bí mật. Script tự lấy mã website đã tạo để lưu APP_ACCESS_TOKEN trong Secrets. Không ghi khóa OpenAI vào tệp.
+- Lấy URL Worker từ thông báo deploy. Script chưa gọi OpenAI để kiểm tra tài khoản.
+- Trên website GitHub > Kết nối AI: dán URL Worker gốc, không /api; dán mã website; Kiểm tra máy chủ rồi Thử gọi AI.
+Ô OpenAI API key trên GitHub/file HTML được vô hiệu hóa có chủ đích. Khóa được đặt trong Cloudflare Secrets, không nằm trong mã GitHub.
+
+Cách thủ công (Windows/Mac/Linux):
+Mở Terminal/PowerShell trong backend_cloudflare. Sửa wrangler.jsonc: ALLOWED_ORIGIN = origin trang của bạn, ví dụ https://TEN.github.io (không tên repository, không dấu / cuối). Có thể đổi name của Worker. Chạy:
+  npx wrangler@latest login
+  npx wrangler@latest deploy
+  npx wrangler@latest secret put OPENAI_API_KEY
+  npx wrangler@latest secret put APP_ACCESS_TOKEN
+Nhập giá trị ở lời nhắc của từng lệnh, KHÔNG nối khóa vào dòng lệnh. Giữ binding RATE_LIMITER. Không bỏ bảo mật để làm hết lỗi cấu hình.
+
+4. QUY TRÌNH SINH NỘI DUNG
+Nạp nguồn đúng môn/lớp; điền phạm vi; xác nhận nguồn và thang điểm. Tích đồng ý gửi dữ liệu trong Kết nối AI. Bấm Lập ma trận bằng AI; kiểm tra, chốt ma trận; bấm Soạn câu hỏi bằng AI. Kết quả không khớp ma trận sẽ bị từ chối, không ghi đè đề. Kiểm tra đáp án, cách chấm và phạm vi; giáo viên duyệt trước khi dùng.
+
+5. XỬ LÝ LỖI
+401: sai mã website. Không dùng API key thay APP_ACCESS_TOKEN.
+403/CORS: sai origin hoặc mở file HTML thay bản GitHub. Kiểm tra ALLOWED_ORIGIN và deploy lại.
+503: thiếu khóa hoặc binding RATE_LIMITER. Đúng file cấu hình mới có binding.
+429: đợi ít nhất một phút; kiểm tra Billing/Usage nếu OpenAI báo hạn mức. Không bấm liên tục.
+502: kiểm tra khóa, model/quyền truy cập hoặc định dạng kết quả. Chưa thử bằng khóa thật trong môi trường biên soạn gói.
+504: quá thời gian; chia nhỏ nội dung. Hủy chờ không đảm bảo yêu cầu đã gửi không tính phí.
+
+6. BẢO MẬT VÀ CHI PHÍ
+Không tải thư mục riêng, mã website hay khóa OpenAI lên GitHub. CORS không thay xác thực; người biết mã website có thể gọi máy chủ và phát sinh phí của tài khoản chủ. Đổi mã khi bị lộ. Không chia sẻ khóa OpenAI.
+Giới hạn tần suất không phải trần chi tiêu. Cloudflare rate limiter là giới hạn phân tán, gần đúng; cần theo dõi Billing/Usage và cảnh báo ngân sách. Bản cục bộ giới hạn 3 lần/phút, 20 lần/giờ và một yêu cầu đang xử lý. Không tự gửi lại khi lỗi.
+Nguồn được gửi qua máy chủ bạn chọn đến OpenAI. Không đưa dữ liệu định danh học sinh không cần thiết. store:false không phải cam kết không lưu bất kì dữ liệu nào ở nhà cung cấp. Bản này dùng cho cá nhân/nhóm nhỏ tin cậy, chưa có đăng nhập, phân quyền và hạn mức riêng từng người.

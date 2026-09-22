@@ -1,0 +1,463 @@
+{
+  "version": "2.0",
+  "profiles": 58,
+  "xlsx_templates": 58,
+  "provider_api_key_created": false,
+  "provider_api_tested_live": false,
+  "application_token_created": true,
+  "public_index_sha256": "3485d9e49bb9ba982ad9f729c4da8a0821da30f749d799825c16688e908cbe21",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 117
+    },
+    {
+      "path": "BAT_DAU_TAI_DAY.txt",
+      "size": 5522
+    },
+    {
+      "path": "CAI_AI_CHO_GITHUB_WINDOWS.cmd",
+      "size": 204
+    },
+    {
+      "path": "DANH_MUC_MON_LOP.txt",
+      "size": 5298
+    },
+    {
+      "path": "De_minh_hoa/T5-GKI_student.docx",
+      "size": 31456
+    },
+    {
+      "path": "De_minh_hoa/T5-GKI_teacher.docx",
+      "size": 34409
+    },
+    {
+      "path": "De_minh_hoa/TV4-GKI_student.docx",
+      "size": 33765
+    },
+    {
+      "path": "De_minh_hoa/TV4-GKI_teacher.docx",
+      "size": 40079
+    },
+    {
+      "path": "Excel_mau/AN1.xlsx",
+      "size": 13680
+    },
+    {
+      "path": "Excel_mau/AN2.xlsx",
+      "size": 13680
+    },
+    {
+      "path": "Excel_mau/AN3.xlsx",
+      "size": 13680
+    },
+    {
+      "path": "Excel_mau/AN4.xlsx",
+      "size": 13680
+    },
+    {
+      "path": "Excel_mau/AN5.xlsx",
+      "size": 13680
+    },
+    {
+      "path": "Excel_mau/CN3.xlsx",
+      "size": 86469
+    },
+    {
+      "path": "Excel_mau/CN4.xlsx",
+      "size": 86469
+    },
+    {
+      "path": "Excel_mau/CN5.xlsx",
+      "size": 86469
+    },
+    {
+      "path": "Excel_mau/DD1.xlsx",
+      "size": 13683
+    },
+    {
+      "path": "Excel_mau/DD2.xlsx",
+      "size": 13683
+    },
+    {
+      "path": "Excel_mau/DD3.xlsx",
+      "size": 13683
+    },
+    {
+      "path": "Excel_mau/DD4.xlsx",
+      "size": 13683
+    },
+    {
+      "path": "Excel_mau/DD5.xlsx",
+      "size": 13683
+    },
+    {
+      "path": "Excel_mau/DTTS1.xlsx",
+      "size": 13701
+    },
+    {
+      "path": "Excel_mau/DTTS2.xlsx",
+      "size": 13701
+    },
+    {
+      "path": "Excel_mau/DTTS3.xlsx",
+      "size": 13701
+    },
+    {
+      "path": "Excel_mau/DTTS4.xlsx",
+      "size": 13701
+    },
+    {
+      "path": "Excel_mau/DTTS5.xlsx",
+      "size": 13701
+    },
+    {
+      "path": "Excel_mau/GDTC1.xlsx",
+      "size": 13694
+    },
+    {
+      "path": "Excel_mau/GDTC2.xlsx",
+      "size": 13694
+    },
+    {
+      "path": "Excel_mau/GDTC3.xlsx",
+      "size": 13694
+    },
+    {
+      "path": "Excel_mau/GDTC4.xlsx",
+      "size": 13694
+    },
+    {
+      "path": "Excel_mau/GDTC5.xlsx",
+      "size": 13694
+    },
+    {
+      "path": "Excel_mau/HDTN1.xlsx",
+      "size": 13700
+    },
+    {
+      "path": "Excel_mau/HDTN2.xlsx",
+      "size": 13700
+    },
+    {
+      "path": "Excel_mau/HDTN3.xlsx",
+      "size": 13700
+    },
+    {
+      "path": "Excel_mau/HDTN4.xlsx",
+      "size": 13700
+    },
+    {
+      "path": "Excel_mau/HDTN5.xlsx",
+      "size": 13700
+    },
+    {
+      "path": "Excel_mau/KH4.xlsx",
+      "size": 86463
+    },
+    {
+      "path": "Excel_mau/KH5.xlsx",
+      "size": 86463
+    },
+    {
+      "path": "Excel_mau/LSDL4.xlsx",
+      "size": 86513
+    },
+    {
+      "path": "Excel_mau/LSDL5.xlsx",
+      "size": 86513
+    },
+    {
+      "path": "Excel_mau/MT1.xlsx",
+      "size": 13681
+    },
+    {
+      "path": "Excel_mau/MT2.xlsx",
+      "size": 13681
+    },
+    {
+      "path": "Excel_mau/MT3.xlsx",
+      "size": 13681
+    },
+    {
+      "path": "Excel_mau/MT4.xlsx",
+      "size": 13681
+    },
+    {
+      "path": "Excel_mau/MT5.xlsx",
+      "size": 13681
+    },
+    {
+      "path": "Excel_mau/NN1.xlsx",
+      "size": 86478
+    },
+    {
+      "path": "Excel_mau/NN2.xlsx",
+      "size": 86478
+    },
+    {
+      "path": "Excel_mau/NN3.xlsx",
+      "size": 86478
+    },
+    {
+      "path": "Excel_mau/NN4.xlsx",
+      "size": 86478
+    },
+    {
+      "path": "Excel_mau/NN5.xlsx",
+      "size": 86478
+    },
+    {
+      "path": "Excel_mau/T1.xlsx",
+      "size": 100471
+    },
+    {
+      "path": "Excel_mau/T2.xlsx",
+      "size": 100115
+    },
+    {
+      "path": "Excel_mau/T3.xlsx",
+      "size": 100177
+    },
+    {
+      "path": "Excel_mau/T4-GKI.xlsx",
+      "size": 160541
+    },
+    {
+      "path": "Excel_mau/T5-GKI.xlsx",
+      "size": 155441
+    },
+    {
+      "path": "Excel_mau/TIN3.xlsx",
+      "size": 86461
+    },
+    {
+      "path": "Excel_mau/TIN4.xlsx",
+      "size": 86461
+    },
+    {
+      "path": "Excel_mau/TIN5.xlsx",
+      "size": 86461
+    },
+    {
+      "path": "Excel_mau/TNXH1.xlsx",
+      "size": 13695
+    },
+    {
+      "path": "Excel_mau/TNXH2.xlsx",
+      "size": 13695
+    },
+    {
+      "path": "Excel_mau/TNXH3.xlsx",
+      "size": 13695
+    },
+    {
+      "path": "Excel_mau/TV1.xlsx",
+      "size": 142967
+    },
+    {
+      "path": "Excel_mau/TV2.xlsx",
+      "size": 143089
+    },
+    {
+      "path": "Excel_mau/TV3.xlsx",
+      "size": 143035
+    },
+    {
+      "path": "Excel_mau/TV4-GKI.xlsx",
+      "size": 195400
+    },
+    {
+      "path": "Excel_mau/TV5-GKI.xlsx",
+      "size": 193146
+    },
+    {
+      "path": "GITHUB_CHI_TAI_THU_MUC_NAY/.nojekyll",
+      "size": 0
+    },
+    {
+      "path": "GITHUB_CHI_TAI_THU_MUC_NAY/index.html",
+      "size": 328341
+    },
+    {
+      "path": "HUONG_DAN_AI.txt",
+      "size": 5863
+    },
+    {
+      "path": "KIEM_THU_V2.txt",
+      "size": 1868
+    },
+    {
+      "path": "MO_WEB_CO_AI_MAC_LINUX.sh",
+      "size": 168
+    },
+    {
+      "path": "MO_WEB_CO_AI_WINDOWS.cmd",
+      "size": 246
+    },
+    {
+      "path": "NGUON_VA_PHAM_VI.txt",
+      "size": 3036
+    },
+    {
+      "path": "RIENG_TU_KHONG_DANG_GITHUB/Bo_nguon_chuyen_mon.json",
+      "size": 159907
+    },
+    {
+      "path": "RIENG_TU_KHONG_DANG_GITHUB/Ma_ket_noi_AI.txt",
+      "size": 426
+    },
+    {
+      "path": "RIENG_TU_KHONG_DANG_GITHUB/app-access-token.txt",
+      "size": 65
+    },
+    {
+      "path": "backend_cloudflare/.gitignore",
+      "size": 42
+    },
+    {
+      "path": "backend_cloudflare/ai-contract.mjs",
+      "size": 7609
+    },
+    {
+      "path": "backend_cloudflare/cai-cloudflare.js",
+      "size": 2550
+    },
+    {
+      "path": "backend_cloudflare/shared.mjs",
+      "size": 67375
+    },
+    {
+      "path": "backend_cloudflare/tests-worker.mjs",
+      "size": 2642
+    },
+    {
+      "path": "backend_cloudflare/worker.mjs",
+      "size": 4541
+    },
+    {
+      "path": "backend_cloudflare/wrangler.jsonc",
+      "size": 385
+    },
+    {
+      "path": "index.html",
+      "size": 328341
+    },
+    {
+      "path": "ma_nguon/.dockerignore",
+      "size": 36
+    },
+    {
+      "path": "ma_nguon/.env.example",
+      "size": 175
+    },
+    {
+      "path": "ma_nguon/.gitignore",
+      "size": 46
+    },
+    {
+      "path": "ma_nguon/ai-contract.js",
+      "size": 7639
+    },
+    {
+      "path": "ma_nguon/build.js",
+      "size": 948
+    },
+    {
+      "path": "ma_nguon/data/01_HO_SO_NGUON_VA_CAU_HINH.md",
+      "size": 23638
+    },
+    {
+      "path": "ma_nguon/data/02_MA_TRAN_DANG_CHU.txt",
+      "size": 59329
+    },
+    {
+      "path": "ma_nguon/data/03_CHI_DAN_TRO_LY.txt",
+      "size": 10179
+    },
+    {
+      "path": "ma_nguon/data/03_TAP_HUAN_DANG_CHU.txt",
+      "size": 19242
+    },
+    {
+      "path": "ma_nguon/data/05_CANH_BAO_TAI_LIEU.md",
+      "size": 10990
+    },
+    {
+      "path": "ma_nguon/data/catalog.json",
+      "size": 41380
+    },
+    {
+      "path": "ma_nguon/data/curricula.json",
+      "size": 89140
+    },
+    {
+      "path": "ma_nguon/data/knowledge.json",
+      "size": 167139
+    },
+    {
+      "path": "ma_nguon/data/matrix-templates.json",
+      "size": 104563
+    },
+    {
+      "path": "ma_nguon/mo-web.js",
+      "size": 1160
+    },
+    {
+      "path": "ma_nguon/package.json",
+      "size": 223
+    },
+    {
+      "path": "ma_nguon/public/app.js",
+      "size": 58210
+    },
+    {
+      "path": "ma_nguon/public/demos.js",
+      "size": 18718
+    },
+    {
+      "path": "ma_nguon/public/exports.js",
+      "size": 21910
+    },
+    {
+      "path": "ma_nguon/public/index.html",
+      "size": 328341
+    },
+    {
+      "path": "ma_nguon/public/index.template.html",
+      "size": 17522
+    },
+    {
+      "path": "ma_nguon/public/matrix.js",
+      "size": 32334
+    },
+    {
+      "path": "ma_nguon/qa/all_ui_report.json",
+      "size": 143
+    },
+    {
+      "path": "ma_nguon/qa/formula_report.json",
+      "size": 201
+    },
+    {
+      "path": "ma_nguon/qa/test-worker.log",
+      "size": 415
+    },
+    {
+      "path": "ma_nguon/server.js",
+      "size": 5439
+    },
+    {
+      "path": "ma_nguon/shared.js",
+      "size": 67412
+    },
+    {
+      "path": "ma_nguon/test-results.json",
+      "size": 99
+    },
+    {
+      "path": "ma_nguon/tests-v2.js",
+      "size": 5777
+    }
+  ]
+}

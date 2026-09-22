@@ -1,0 +1,29 @@
+﻿NGUỒN VÀ PHẠM VI CỦA BẢN 2.0
+
+A. GIỮ TỪ NGUỒN NGƯỜI DÙNG
+Khung 7 nhóm dạng câu x 3 mức và cấu trúc đề: các ma trận, đặc tả, đề Toán/Tiếng Việt lớp 4-5 đã gửi; quy trình từ Bai giang tap huan ra de KT.pptx. Các cảnh báo bản trước giữ riêng, không sửa bản gốc.
+Chương trình: CT MÔM TOÁN.docx và CHƯƠNG TRÌNH MÔN TV.docx, trích đúng mục LỚP 1-5. Các trích đoạn là nội dung cả năm, không mặc định là tiến độ của từng kì. Bộ trích nguồn không thay thế ảnh/hình/công thức của tài liệu gốc.
+
+B. PHẦN MỞ RỘNG DO PHẦN MỀM BIÊN SOẠN
+58 hồ sơ môn/lớp và 58 Excel tương ứng: 25 hồ sơ có điểm (gồm 2 hồ sơ Ngoại ngữ tự chọn lớp 1-2), 33 hồ sơ nhiệm vụ/nhận xét. Tin học và Công nghệ tách thao tác trên giao diện, không khẳng định là hai môn độc lập trong văn bản chương trình. Âm nhạc/Mĩ thuật là hai phần Nghệ thuật.
+Môn khác Toán/Tiếng Việt: mới chuẩn bị KHUNG, chưa có kho YCCĐ đầy đủ. Phải nạp nguồn đúng môn/lớp trước khi sinh nội dung. Hệ thống kiểm tra sự hiện diện của nguồn, không tự xác nhận tính chính xác của mọi tài liệu nạp vào.
+Các mẫu thang điểm, thời lượng và dòng khung mới đều cần giáo viên duyệt. Không tự áp bài văn, tốc độ đọc, kiến thức lớp 4-5 cho lớp 1-3.
+
+C. ĐỐI CHIẾU NGOÀI NGUỒN (22/09/2026)
+Cấu hình tham chiếu Thông tư 27/2020, Điều 7: bài kiểm tra định kỳ cuối HKI/cuối năm cho các môn được quy định; Toán/Tiếng Việt 4-5 có thêm giữa HKI/II. Đợt khác không tự coi là bắt buộc. Cần kiểm tra văn bản đang áp dụng và hướng dẫn đơn vị trước khi ra đề chính thức. Dự thảo không tự trở thành quy định hiệu lực.
+https://vanban.chinhphu.vn/default.aspx?docid=201006&pageid=27160
+https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/09/27-bgddt.signed.pdf
+Danh mục môn/lớp tham chiếu chương trình GDPT 2018:
+https://baochinhphu.vn/chuong-trinh-giao-duc-pho-thong-moi-chinh-thuc-duoc-cong-bo-102249965.htm
+Nguồn văn bản sửa đổi để giáo viên đối chiếu:
+https://vanban.chinhphu.vn/default.aspx?docid=215347&pageid=27160
+
+D. TÀI LIỆU KĨ THUẬT
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety
+https://help.openai.com/en/articles/9039756-billing-settings-in-chatgpt-vs-platform
+https://developers.openai.com/api/docs/models/gpt-4.1-mini
+https://developers.openai.com/api/docs/guides/structured-outputs
+https://developers.cloudflare.com/workers/configuration/secrets/
+https://developers.cloudflare.com/workers/runtime-apis/bindings/rate-limit/
+https://nodejs.org/en/download

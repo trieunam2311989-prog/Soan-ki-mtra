@@ -1,0 +1,70 @@
+﻿DANH MỤC 58 HỒ SƠ MÔN/LỚP - WEB 2.0
+Tên file Excel tương ứng: Excel_mau/<MÃ>.xlsx
+
+LỚP 1
+T1 | Toán | Ma trận điểm | Có trích chương trình người dùng
+TV1 | Tiếng Việt | Ma trận điểm | Có trích chương trình người dùng
+NN1 | Ngoại ngữ 1 | Ma trận điểm | Cần nạp nguồn môn/lớp | Tự chọn / theo kế hoạch
+TNXH1 | Tự nhiên và Xã hội | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+DD1 | Đạo đức | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+GDTC1 | Giáo dục thể chất | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+AN1 | Âm nhạc | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+MT1 | Mĩ thuật | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+HDTN1 | Hoạt động trải nghiệm | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+DTTS1 | Tiếng dân tộc thiểu số | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp | Tự chọn / theo kế hoạch
+
+LỚP 2
+T2 | Toán | Ma trận điểm | Có trích chương trình người dùng
+TV2 | Tiếng Việt | Ma trận điểm | Có trích chương trình người dùng
+NN2 | Ngoại ngữ 1 | Ma trận điểm | Cần nạp nguồn môn/lớp | Tự chọn / theo kế hoạch
+TNXH2 | Tự nhiên và Xã hội | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+DD2 | Đạo đức | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+GDTC2 | Giáo dục thể chất | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+AN2 | Âm nhạc | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+MT2 | Mĩ thuật | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+HDTN2 | Hoạt động trải nghiệm | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+DTTS2 | Tiếng dân tộc thiểu số | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp | Tự chọn / theo kế hoạch
+
+LỚP 3
+T3 | Toán | Ma trận điểm | Có trích chương trình người dùng
+TV3 | Tiếng Việt | Ma trận điểm | Có trích chương trình người dùng
+NN3 | Ngoại ngữ 1 | Ma trận điểm | Cần nạp nguồn môn/lớp
+TIN3 | Tin học | Ma trận điểm | Cần nạp nguồn môn/lớp
+CN3 | Công nghệ | Ma trận điểm | Cần nạp nguồn môn/lớp
+TNXH3 | Tự nhiên và Xã hội | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+DD3 | Đạo đức | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+GDTC3 | Giáo dục thể chất | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+AN3 | Âm nhạc | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+MT3 | Mĩ thuật | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+HDTN3 | Hoạt động trải nghiệm | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+DTTS3 | Tiếng dân tộc thiểu số | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp | Tự chọn / theo kế hoạch
+
+LỚP 4
+T4-GKI | Toán | Ma trận điểm | Có trích chương trình người dùng
+TV4-GKI | Tiếng Việt | Ma trận điểm | Có trích chương trình người dùng
+NN4 | Ngoại ngữ 1 | Ma trận điểm | Cần nạp nguồn môn/lớp
+TIN4 | Tin học | Ma trận điểm | Cần nạp nguồn môn/lớp
+CN4 | Công nghệ | Ma trận điểm | Cần nạp nguồn môn/lớp
+KH4 | Khoa học | Ma trận điểm | Cần nạp nguồn môn/lớp
+LSDL4 | Lịch sử và Địa lí | Ma trận điểm | Cần nạp nguồn môn/lớp
+DD4 | Đạo đức | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+GDTC4 | Giáo dục thể chất | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+AN4 | Âm nhạc | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+MT4 | Mĩ thuật | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+HDTN4 | Hoạt động trải nghiệm | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+DTTS4 | Tiếng dân tộc thiểu số | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp | Tự chọn / theo kế hoạch
+
+LỚP 5
+T5-GKI | Toán | Ma trận điểm | Có trích chương trình người dùng
+TV5-GKI | Tiếng Việt | Ma trận điểm | Có trích chương trình người dùng
+NN5 | Ngoại ngữ 1 | Ma trận điểm | Cần nạp nguồn môn/lớp
+TIN5 | Tin học | Ma trận điểm | Cần nạp nguồn môn/lớp
+CN5 | Công nghệ | Ma trận điểm | Cần nạp nguồn môn/lớp
+KH5 | Khoa học | Ma trận điểm | Cần nạp nguồn môn/lớp
+LSDL5 | Lịch sử và Địa lí | Ma trận điểm | Cần nạp nguồn môn/lớp
+DD5 | Đạo đức | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+GDTC5 | Giáo dục thể chất | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+AN5 | Âm nhạc | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+MT5 | Mĩ thuật | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+HDTN5 | Hoạt động trải nghiệm | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp
+DTTS5 | Tiếng dân tộc thiểu số | Nhiệm vụ / nhận xét | Cần nạp nguồn môn/lớp | Tự chọn / theo kế hoạch

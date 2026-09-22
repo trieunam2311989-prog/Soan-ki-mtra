@@ -1,0 +1,10 @@
+RIENG_TU_KHONG_DANG_GITHUB/
+ma_nguon/data/
+.env
+.env.*
+!.env.example
+.dev.vars*
+*.zip
+*.log
+node_modules/
+.wrangler/
